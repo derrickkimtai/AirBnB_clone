@@ -41,5 +41,5 @@ class FileStorage:
                 FileStorage.__objects[key] = (class_dict[
                                               obj_json[key]["__class__"]]
                                               (**value))
-        except KeyError:
+        except FileNotFoundError:
             pass
