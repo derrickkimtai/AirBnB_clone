@@ -10,3 +10,7 @@ body {
     background-position: top right;
     background-repeat: no-repeat;
 }
+.container {
+    max-width: 1000px;
+    margin: 30px auto;
+}
